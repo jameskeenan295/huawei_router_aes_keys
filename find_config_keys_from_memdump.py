@@ -25,7 +25,7 @@ def test_decrypt_key(encrypted_config_data, AES256CBC_IV, AES256CBC_KEY):
 
 def get_keys_from_memdump(): 
     ## Read the memdump file, then close it
-    memdump_fname = 'voda_026_mem_afterconfigsave1.dump' # adjust file name here...
+    memdump_fname = 'memorydump.dump' # adjust file name here...
     memdump_f = open(memdump_fname , 'rb')
     memdump_data = memdump_f.read()
     memdump_f.close()
@@ -39,7 +39,7 @@ def get_keys_from_memdump():
     return key_list
 
 def test_keys():
-    encrypted_config_fname = 'voda_026_configsave.conf'
+    encrypted_config_fname = 'configsave.conf'
     encrypted_config_f = open(encrypted_config_fname , 'rb')
     encrypted_config_data = encrypted_config_f.read()
     encrypted_config_f.close()
