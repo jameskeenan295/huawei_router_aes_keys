@@ -5,9 +5,9 @@ Requires python3. Was tested on kali2019.
 
 Instructions:
 Create a folder, and place these 3 things in there:
-Your saved-config file from the router
-Memory dump from the router
-This script
+1) Your saved-config file from the router, called 'savedconfig.conf'
+2) Memory dump from the router, called 'memorydump.dump'
+3) find_config_keys_from_memdump.py
 
-usage:
+Usage:
 python3 ./find_config_keys_from_memdump.py
