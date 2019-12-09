@@ -1,4 +1,7 @@
 # huawei_router_aes_keys
+
+![hg659_find_config_keys_screenshot3](hg659_find_config_keys_screenshot3.png)
+
 Extract AES keys from huawei hg6xx routers for decrypting saved config files
 See https://hg659.home.blog/ for the writeup
 Requires python3. Was tested on kali2019.
